@@ -1,0 +1,117 @@
+coverted json {
+    "sessionId": "465572510980882",
+    "inputTranscript": "yes",
+    "interpretations": [
+        {
+            "intent": {
+                "slots": {
+                    "PickupTime": {
+                        "shape": "Scalar",
+                        "value": {
+                            "originalValue": "now",
+                            "resolvedValues": [
+                                "09:52"
+                            ],
+                            "interpretedValue": "09:52"
+                        }
+                    },
+                    "FlowerType": {
+                        "shape": "Scalar",
+                        "value": {
+                            "originalValue": "roses",
+                            "resolvedValues": [
+                                "roses"
+                            ],
+                            "interpretedValue": "roses"
+                        }
+                    },
+                    "PickupDate": {
+                        "shape": "Scalar",
+                        "value": {
+                            "originalValue": "today",
+                            "resolvedValues": [
+                                "2022-11-09"
+                            ],
+                            "interpretedValue": "2022-11-09"
+                        }
+                    }
+                },
+                "confirmationState": "Confirmed",
+                "name": "OrderFlowers",
+                "state": "ReadyForFulfillment"
+            },
+            "nluConfidence": 1
+        },
+        {
+            "intent": {
+                "slots": {},
+                "confirmationState": "None",
+                "name": "FallbackIntent",
+                "state": "ReadyForFulfillment"
+            }
+        }
+    ],
+    "sessionState": {
+        "sessionAttributes": {},
+        "intent": {
+            "slots": {
+                "PickupTime": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "now",
+                        "resolvedValues": [
+                            "09:52"
+                        ],
+                        "interpretedValue": "09:52"
+                    }
+                },
+                "FlowerType": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "roses",
+                        "resolvedValues": [
+                            "roses"
+                        ],
+                        "interpretedValue": "roses"
+                    }
+                },
+                "PickupDate": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "today",
+                        "resolvedValues": [
+                            "2022-11-09"
+                        ],
+                        "interpretedValue": "2022-11-09"
+                    }
+                }
+            },
+            "confirmationState": "Confirmed",
+            "name": "OrderFlowers",
+            "state": "ReadyForFulfillment"
+        },
+        "originatingRequestId": "7bc3c85c-5310-4d9e-bdfe-85ec4346f170"
+    },
+    "responseContentType": "text/plain; charset=utf-8",
+    "invocationSource": "FulfillmentCodeHook",
+    "messageVersion": "1.0",
+    "transcriptions": [
+        {
+            "resolvedContext": {
+                "intent": "OrderFlowers"
+            },
+            "transcription": "yes",
+            "resolvedSlots": {},
+            "transcriptionConfidence": 1
+        }
+    ],
+    "inputMode": "Text",
+    "bot": {
+        "aliasName": "TestBotAlias",
+        "aliasId": "TSTALIASID",
+        "name": "Orderflower",
+        "version": "DRAFT",
+        "localeId": "en_US",
+        "id": "YJO9OFWNVO"
+    }
+}
